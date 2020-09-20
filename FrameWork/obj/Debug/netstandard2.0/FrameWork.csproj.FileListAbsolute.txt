@@ -1,0 +1,9 @@
+D:\TryC#\FrameWork\bin\Debug\netstandard2.0\FrameWork.deps.json
+D:\TryC#\FrameWork\bin\Debug\netstandard2.0\FrameWork.dll
+D:\TryC#\FrameWork\bin\Debug\netstandard2.0\FrameWork.pdb
+D:\TryC#\FrameWork\obj\Debug\netstandard2.0\FrameWork.csprojAssemblyReference.cache
+D:\TryC#\FrameWork\obj\Debug\netstandard2.0\FrameWork.csproj.CoreCompileInputs.cache
+D:\TryC#\FrameWork\obj\Debug\netstandard2.0\FrameWork.AssemblyInfoInputs.cache
+D:\TryC#\FrameWork\obj\Debug\netstandard2.0\FrameWork.AssemblyInfo.cs
+D:\TryC#\FrameWork\obj\Debug\netstandard2.0\FrameWork.dll
+D:\TryC#\FrameWork\obj\Debug\netstandard2.0\FrameWork.pdb

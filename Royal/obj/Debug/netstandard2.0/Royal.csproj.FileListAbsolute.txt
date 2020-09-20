@@ -1,0 +1,12 @@
+D:\TryC#\Royal\bin\Debug\netstandard2.0\Royal.deps.json
+D:\TryC#\Royal\bin\Debug\netstandard2.0\Royal.dll
+D:\TryC#\Royal\bin\Debug\netstandard2.0\Royal.pdb
+D:\TryC#\Royal\bin\Debug\netstandard2.0\FrameWork.dll
+D:\TryC#\Royal\bin\Debug\netstandard2.0\FrameWork.pdb
+D:\TryC#\Royal\obj\Debug\netstandard2.0\Royal.csprojAssemblyReference.cache
+D:\TryC#\Royal\obj\Debug\netstandard2.0\Royal.csproj.CoreCompileInputs.cache
+D:\TryC#\Royal\obj\Debug\netstandard2.0\Royal.AssemblyInfoInputs.cache
+D:\TryC#\Royal\obj\Debug\netstandard2.0\Royal.AssemblyInfo.cs
+D:\TryC#\Royal\obj\Debug\netstandard2.0\Royal.csproj.CopyComplete
+D:\TryC#\Royal\obj\Debug\netstandard2.0\Royal.dll
+D:\TryC#\Royal\obj\Debug\netstandard2.0\Royal.pdb
