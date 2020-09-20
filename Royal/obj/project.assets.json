@@ -3205,7 +3205,9 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "FrameWork >= 1.0.0",
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "Selenium.Support",
+      "Selenium.WebDriver >= 3.141.0"
     ]
   },
   "packageFolders": {
@@ -3215,11 +3217,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TryC#\\Royal\\Royal.csproj",
+      "projectUniqueName": "d:\\TryC#\\SleniumWithC-\\Royal\\Royal.csproj",
       "projectName": "Royal",
-      "projectPath": "D:\\TryC#\\Royal\\Royal.csproj",
+      "projectPath": "d:\\TryC#\\SleniumWithC-\\Royal\\Royal.csproj",
       "packagesPath": "C:\\Users\\Aya.aref\\.nuget\\packages\\",
-      "outputPath": "D:\\TryC#\\Royal\\obj\\",
+      "outputPath": "d:\\TryC#\\SleniumWithC-\\Royal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3238,8 +3240,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\TryC#\\FrameWork\\FrameWork.csproj": {
-              "projectPath": "D:\\TryC#\\FrameWork\\FrameWork.csproj"
+            "d:\\TryC#\\SleniumWithC-\\FrameWork\\FrameWork.csproj": {
+              "projectPath": "d:\\TryC#\\SleniumWithC-\\FrameWork\\FrameWork.csproj"
             }
           }
         }
@@ -3258,6 +3260,14 @@
             "target": "Package",
             "version": "[2.0.3, )",
             "autoReferenced": true
+          },
+          "Selenium.Support": {
+            "target": "Package",
+            "version": "(, )"
+          },
+          "Selenium.WebDriver": {
+            "target": "Package",
+            "version": "[3.141.0, )"
           }
         },
         "imports": [
