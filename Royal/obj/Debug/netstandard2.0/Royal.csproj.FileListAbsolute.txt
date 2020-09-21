@@ -10,3 +10,15 @@ D:\TryC#\Royal\obj\Debug\netstandard2.0\Royal.AssemblyInfo.cs
 D:\TryC#\Royal\obj\Debug\netstandard2.0\Royal.csproj.CopyComplete
 D:\TryC#\Royal\obj\Debug\netstandard2.0\Royal.dll
 D:\TryC#\Royal\obj\Debug\netstandard2.0\Royal.pdb
+d:\TryC#\SleniumWithC-\Royal\bin\Debug\netstandard2.0\Royal.deps.json
+d:\TryC#\SleniumWithC-\Royal\bin\Debug\netstandard2.0\Royal.dll
+d:\TryC#\SleniumWithC-\Royal\bin\Debug\netstandard2.0\Royal.pdb
+d:\TryC#\SleniumWithC-\Royal\bin\Debug\netstandard2.0\FrameWork.dll
+d:\TryC#\SleniumWithC-\Royal\bin\Debug\netstandard2.0\FrameWork.pdb
+d:\TryC#\SleniumWithC-\Royal\obj\Debug\netstandard2.0\Royal.csprojAssemblyReference.cache
+d:\TryC#\SleniumWithC-\Royal\obj\Debug\netstandard2.0\Royal.csproj.CoreCompileInputs.cache
+d:\TryC#\SleniumWithC-\Royal\obj\Debug\netstandard2.0\Royal.AssemblyInfoInputs.cache
+d:\TryC#\SleniumWithC-\Royal\obj\Debug\netstandard2.0\Royal.AssemblyInfo.cs
+d:\TryC#\SleniumWithC-\Royal\obj\Debug\netstandard2.0\Royal.csproj.CopyComplete
+d:\TryC#\SleniumWithC-\Royal\obj\Debug\netstandard2.0\Royal.dll
+d:\TryC#\SleniumWithC-\Royal\obj\Debug\netstandard2.0\Royal.pdb

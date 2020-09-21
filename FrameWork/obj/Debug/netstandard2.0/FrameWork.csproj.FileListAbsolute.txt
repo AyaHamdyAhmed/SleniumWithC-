@@ -7,3 +7,12 @@ D:\TryC#\FrameWork\obj\Debug\netstandard2.0\FrameWork.AssemblyInfoInputs.cache
 D:\TryC#\FrameWork\obj\Debug\netstandard2.0\FrameWork.AssemblyInfo.cs
 D:\TryC#\FrameWork\obj\Debug\netstandard2.0\FrameWork.dll
 D:\TryC#\FrameWork\obj\Debug\netstandard2.0\FrameWork.pdb
+d:\TryC#\SleniumWithC-\FrameWork\bin\Debug\netstandard2.0\FrameWork.deps.json
+d:\TryC#\SleniumWithC-\FrameWork\bin\Debug\netstandard2.0\FrameWork.dll
+d:\TryC#\SleniumWithC-\FrameWork\bin\Debug\netstandard2.0\FrameWork.pdb
+d:\TryC#\SleniumWithC-\FrameWork\obj\Debug\netstandard2.0\FrameWork.csprojAssemblyReference.cache
+d:\TryC#\SleniumWithC-\FrameWork\obj\Debug\netstandard2.0\FrameWork.csproj.CoreCompileInputs.cache
+d:\TryC#\SleniumWithC-\FrameWork\obj\Debug\netstandard2.0\FrameWork.AssemblyInfoInputs.cache
+d:\TryC#\SleniumWithC-\FrameWork\obj\Debug\netstandard2.0\FrameWork.AssemblyInfo.cs
+d:\TryC#\SleniumWithC-\FrameWork\obj\Debug\netstandard2.0\FrameWork.dll
+d:\TryC#\SleniumWithC-\FrameWork\obj\Debug\netstandard2.0\FrameWork.pdb

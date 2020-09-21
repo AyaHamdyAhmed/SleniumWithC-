@@ -3,26 +3,24 @@ using FrameWork.Modles;
 using FrameWork.Services;
 using NUnit.Framework;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
+using FrameWork.Selenium;
 using Royal.Pages;
-
 namespace Tests
 {
     public class CardTests
     {
-        IWebDriver driver;
 
         [SetUp]
         public void BeforeTest()
         {
-            driver = new ChromeDriver(Path.GetFullPath(@"../../../../"+ "_drivers"));
-            driver.Url= "https://statsroyale.com";
+            Driver.InitDriver();
+            Driver.current.Url= "https://statsroyale.com";
         }
 
         [Test]
         public void IceSpirirt_Is_On_Cards_Page()
         {
-            var CardsPage= new CardsOnPage(driver);
+            var CardsPage= new CardsOnPage(Driver.current);
             var IceSpirit= CardsPage.Goto().GetCardByName("Ice Spirit");
             Assert.That(IceSpirit.Displayed,"IceSpirit card isn't displayed");
         }
@@ -30,8 +28,8 @@ namespace Tests
         [Test]
         public void IceSpirirt_HeadersAreDisplayed_On_CardsDetails_Page()
         {
-            new CardsOnPage(driver).Goto().GetCardByName("Ice Spirit").Click();
-            var CardDetails = new CardDetailsPage(driver);
+            new CardsOnPage(Driver.current).Goto().GetCardByName("Ice Spirit").Click();
+            var CardDetails = new CardDetailsPage(Driver.current);
             var (Category, arena) = CardDetails.GetCartCategory();
             var cardName= CardDetails.map.CardName.Text;
             var cardRarity= CardDetails.map.CardRarity.Text.Split('\n')[1];
@@ -47,8 +45,8 @@ namespace Tests
         [Parallelizable(ParallelScope.Children)]
         public void Card_HeadersAreCorrect_On_CardsDetails_Page(string cardName)
         {
-            new CardsOnPage(driver).Goto().GetCardByName(cardName).Click();
-            var CardDetails = new CardDetailsPage(driver);
+            new CardsOnPage(Driver.current).Goto().GetCardByName(cardName).Click();
+            var CardDetails = new CardDetailsPage(Driver.current);
             var cardOnThePage= CardDetails.GetBaseCard();
             var Card = new InMemoryCardService().GetCardByName(cardName);
             Assert.AreEqual(Card.Name, cardOnThePage.Name);
@@ -61,7 +59,7 @@ namespace Tests
         [TearDown]
         public void AfterTest()
         {
-          driver.Quit();
+          Driver.current.Quit();
         }
 
 

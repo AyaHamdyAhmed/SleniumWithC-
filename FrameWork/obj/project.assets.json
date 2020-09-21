@@ -3186,7 +3186,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
-      "Selenium.Support",
+      "Selenium.Support >= 3.141.0",
       "Selenium.WebDriver >= 3.141.0"
     ]
   },
@@ -3197,11 +3197,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\TryC#\\SleniumWithC-\\FrameWork\\FrameWork.csproj",
+      "projectUniqueName": "D:\\TryC#\\SleniumWithC-\\FrameWork\\FrameWork.csproj",
       "projectName": "FrameWork",
-      "projectPath": "d:\\TryC#\\SleniumWithC-\\FrameWork\\FrameWork.csproj",
+      "projectPath": "D:\\TryC#\\SleniumWithC-\\FrameWork\\FrameWork.csproj",
       "packagesPath": "C:\\Users\\Aya.aref\\.nuget\\packages\\",
-      "outputPath": "d:\\TryC#\\SleniumWithC-\\FrameWork\\obj\\",
+      "outputPath": "D:\\TryC#\\SleniumWithC-\\FrameWork\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3239,7 +3239,7 @@
           },
           "Selenium.Support": {
             "target": "Package",
-            "version": "(, )"
+            "version": "[3.141.0, )"
           },
           "Selenium.WebDriver": {
             "target": "Package",
