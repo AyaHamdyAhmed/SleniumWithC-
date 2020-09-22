@@ -1,12 +1,13 @@
 namespace Royal.Pages
 {
+    using FrameWork.Selenium;
     using OpenQA.Selenium;
-    public class CardsOnPage : PageBase
+    public class CardsPage : PageBase
     {
         public readonly CardsPageMap map;
-        public CardsOnPage(IWebDriver driver): base(driver)
+        public CardsPage()
         {
-            map= new CardsPageMap(driver);
+            map= new CardsPageMap();
         }
         public IWebElement GetCardByName(string CardName)
         {
@@ -16,7 +17,7 @@ namespace Royal.Pages
             return map.Card(CardName);
         }
 
-        public CardsOnPage Goto()
+        public CardsPage Goto()
         {
             headerNav.GoToCardsPage();
             return this;
@@ -25,12 +26,8 @@ namespace Royal.Pages
 
     public class CardsPageMap
     {
-        IWebDriver _driver;
-        public CardsPageMap(IWebDriver driver){
-            _driver= driver;
-        }
-        public IWebElement IceSpirit => _driver.FindElement(By.CssSelector("a[href*='Ice+Spirit']"));
+        public IWebElement IceSpirit => Driver.FindElement(By.CssSelector("a[href*='Ice+Spirit']"));
 
-        public IWebElement Card(string name) => _driver.FindElement(By.CssSelector($"a[href*='{name}']"));
+        public IWebElement Card(string name) => Driver.FindElement(By.CssSelector($"a[href*='{name}']"));
     }
 }

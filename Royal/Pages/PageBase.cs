@@ -1,12 +1,11 @@
 namespace Royal.Pages
 {
-    using OpenQA.Selenium;
     public abstract class PageBase
     {
         public readonly HeaderNav headerNav;
-        public PageBase(IWebDriver driver)
+        public PageBase()
         {
-            headerNav = new HeaderNav(driver);
+            headerNav = new HeaderNav();
         }
     }
 }
