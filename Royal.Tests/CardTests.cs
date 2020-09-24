@@ -5,14 +5,21 @@ using NUnit.Framework;
 using FrameWork.Selenium;
 using Royal.Pages;
 using System.Collections.Generic;
+using FrameWork;
+
 namespace Tests
 {
     public class CardTests
     {
-
+        [OneTimeSetUp]
+        public void BeforeClass()
+        {
+            FW.CreateTestResultsDirectory();
+        }
         [SetUp]
         public void BeforeTest()
         {
+            FW.setLogger();
             Driver.InitDriver();
             Pages.Init();
             Driver.GoTO("https://statsroyale.com");
@@ -60,7 +67,7 @@ namespace Tests
         [TearDown]
         public void AfterTest()
         {
-          Driver.current.Quit();
+          Driver.Quit();
         }
 
 

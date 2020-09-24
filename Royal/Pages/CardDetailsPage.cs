@@ -1,6 +1,7 @@
 namespace Royal.Pages
 {
     using System.Linq;
+    using FrameWork;
     using FrameWork.Modles;
     using FrameWork.Selenium;
     using OpenQA.Selenium;
@@ -14,12 +15,14 @@ namespace Royal.Pages
 
         public (string category, string arena) GetCartCategory()
         {
+            FW.log.Step("Get Card Category");
             var Categories= map.CardCatgory.Text.Split(',');
             return (Categories[0].Trim(), Categories[1].Trim());
         }
 
         public Card GetBaseCard()
         {
+            FW.log.Step("Get Card Category");
             var (Category, arena) = GetCartCategory();
             return new Card
             {

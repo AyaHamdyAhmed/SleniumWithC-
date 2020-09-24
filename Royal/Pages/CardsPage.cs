@@ -1,5 +1,6 @@
 namespace Royal.Pages
 {
+    using FrameWork;
     using FrameWork.Selenium;
     using OpenQA.Selenium;
     public class CardsPage : PageBase
@@ -11,6 +12,7 @@ namespace Royal.Pages
         }
         public IWebElement GetCardByName(string CardName)
         {
+            FW.log.Step("search for card by Name");
             if(CardName.Contains(" ")){
                 CardName = CardName.Replace(" ", "+");
             }
@@ -19,6 +21,7 @@ namespace Royal.Pages
 
         public CardsPage Goto()
         {
+            FW.log.Step("open cards page");
             headerNav.GoToCardsPage();
             return this;
         }

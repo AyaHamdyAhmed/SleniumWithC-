@@ -12,6 +12,7 @@ namespace FrameWork.Selenium
 
         public static void InitDriver()
         {
+            FW.log.Info("Browser: Chrome");
             _driver= new ChromeDriver(Path.GetFullPath(@"../../../../"+ "_drivers"));
         }
 
@@ -23,8 +24,14 @@ namespace FrameWork.Selenium
             {
               url= $"http://{url}";
             }
-            Debug.WriteLine(url);
+            FW.log.Info(url);
             current.Navigate().GoToUrl(url);
+        }
+        public static void Quit()
+        {
+            FW.log.Info("Close Browser");
+            current.Quit();
+            current.Dispose();
         }
         public static IWebElement FindElement(By by)
         {

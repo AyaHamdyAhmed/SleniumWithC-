@@ -583,7 +583,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "NUnit/3.10.1": {
+      "NUnit/3.12.0": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.0"
@@ -595,7 +595,7 @@
           "lib/netstandard2.0/nunit.framework.dll": {}
         },
         "build": {
-          "build/NUnit.props": {}
+          "build/_._": {}
         }
       },
       "NUnit3TestAdapter/3.10.0": {
@@ -1598,6 +1598,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "NUnit": "3.12.0",
           "Newtonsoft.Json": "12.0.3",
           "RestSharp": "106.11.5",
           "Selenium.Support": "3.141.0",
@@ -2508,10 +2509,10 @@
         "packageIcon.png"
       ]
     },
-    "NUnit/3.10.1": {
-      "sha512": "E3ii6+VLdeIxTQ5gPjk/7g/xl+aCifbfcIkiGayZCuos+22FEdtKGrxMe6SzoXCQCcL7gdqhfNIFTaZ1+dS18g==",
+    "NUnit/3.12.0": {
+      "sha512": "3oJTrcUcT9wmweBUwgUf0f1XIYy6RZq2ziV+RM95HMKAJGsHPN2i3MKK1dAPvDPMRLz799Llj4eyu/STB9Q7OA==",
       "type": "package",
-      "path": "nunit/3.10.1",
+      "path": "nunit/3.12.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2519,10 +2520,6 @@
         "LICENSE.txt",
         "NOTICES.txt",
         "build/NUnit.props",
-        "lib/net20/NUnit.System.Linq.dll",
-        "lib/net20/nunit.framework.dll",
-        "lib/net20/nunit.framework.pdb",
-        "lib/net20/nunit.framework.xml",
         "lib/net35/nunit.framework.dll",
         "lib/net35/nunit.framework.pdb",
         "lib/net35/nunit.framework.xml",
@@ -2532,13 +2529,13 @@
         "lib/net45/nunit.framework.dll",
         "lib/net45/nunit.framework.pdb",
         "lib/net45/nunit.framework.xml",
-        "lib/netstandard1.6/nunit.framework.dll",
-        "lib/netstandard1.6/nunit.framework.pdb",
-        "lib/netstandard1.6/nunit.framework.xml",
+        "lib/netstandard1.4/nunit.framework.dll",
+        "lib/netstandard1.4/nunit.framework.pdb",
+        "lib/netstandard1.4/nunit.framework.xml",
         "lib/netstandard2.0/nunit.framework.dll",
         "lib/netstandard2.0/nunit.framework.pdb",
         "lib/netstandard2.0/nunit.framework.xml",
-        "nunit.3.10.1.nupkg.sha512",
+        "nunit.3.12.0.nupkg.sha512",
         "nunit.nuspec"
       ]
     },
@@ -5616,8 +5613,7 @@
       "Microsoft.NETCore.App >= 2.1.0",
       "NUnit3TestAdapter >= 3.10.0",
       "Royal >= 1.0.0",
-      "Selenium.Support >= 3.141.0",
-      "nunit >= 3.10.1"
+      "Selenium.Support >= 3.141.0"
     ]
   },
   "packageFolders": {
@@ -5682,10 +5678,6 @@
           "Selenium.Support": {
             "target": "Package",
             "version": "[3.141.0, )"
-          },
-          "nunit": {
-            "target": "Package",
-            "version": "[3.10.1, )"
           }
         },
         "imports": [

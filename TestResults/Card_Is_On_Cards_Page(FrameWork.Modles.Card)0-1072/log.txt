@@ -1,0 +1,4 @@
+Starting TimeStamp: 9/24/2020 1:33:56 PM
+Test: Card_Is_On_Cards_Page(FrameWork.Modles.Card)
+[INFO]:  Browser: Chrome
+[INFO]:  Close Browser
