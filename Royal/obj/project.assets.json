@@ -382,11 +382,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TryC#\\SleniumWithC-\\Royal\\Royal.csproj",
+      "projectUniqueName": "d:\\TryC#\\SleniumWithC#\\Royal\\Royal.csproj",
       "projectName": "Royal",
-      "projectPath": "D:\\TryC#\\SleniumWithC-\\Royal\\Royal.csproj",
+      "projectPath": "d:\\TryC#\\SleniumWithC#\\Royal\\Royal.csproj",
       "packagesPath": "C:\\Users\\Aya.aref\\.nuget\\packages\\",
-      "outputPath": "D:\\TryC#\\SleniumWithC-\\Royal\\obj\\",
+      "outputPath": "d:\\TryC#\\SleniumWithC#\\Royal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -405,8 +405,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\TryC#\\SleniumWithC-\\FrameWork\\FrameWork.csproj": {
-              "projectPath": "D:\\TryC#\\SleniumWithC-\\FrameWork\\FrameWork.csproj"
+            "d:\\TryC#\\SleniumWithC#\\FrameWork\\FrameWork.csproj": {
+              "projectPath": "d:\\TryC#\\SleniumWithC#\\FrameWork\\FrameWork.csproj"
             }
           }
         }

@@ -5609,6 +5609,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "FrameWork >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 15.8.0",
       "Microsoft.NETCore.App >= 2.1.0",
       "NUnit3TestAdapter >= 3.10.0",
@@ -5623,11 +5624,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TryC#\\SleniumWithC-\\Royal.Tests\\Royal.Tests.csproj",
+      "projectUniqueName": "d:\\TryC#\\SleniumWithC#\\Royal.Tests\\Royal.Tests.csproj",
       "projectName": "Royal.Tests",
-      "projectPath": "D:\\TryC#\\SleniumWithC-\\Royal.Tests\\Royal.Tests.csproj",
+      "projectPath": "d:\\TryC#\\SleniumWithC#\\Royal.Tests\\Royal.Tests.csproj",
       "packagesPath": "C:\\Users\\Aya.aref\\.nuget\\packages\\",
-      "outputPath": "D:\\TryC#\\SleniumWithC-\\Royal.Tests\\obj\\",
+      "outputPath": "d:\\TryC#\\SleniumWithC#\\Royal.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5646,8 +5647,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\TryC#\\SleniumWithC-\\Royal\\Royal.csproj": {
-              "projectPath": "D:\\TryC#\\SleniumWithC-\\Royal\\Royal.csproj"
+            "d:\\TryC#\\SleniumWithC#\\FrameWork\\FrameWork.csproj": {
+              "projectPath": "d:\\TryC#\\SleniumWithC#\\FrameWork\\FrameWork.csproj"
+            },
+            "d:\\TryC#\\SleniumWithC#\\Royal\\Royal.csproj": {
+              "projectPath": "d:\\TryC#\\SleniumWithC#\\Royal\\Royal.csproj"
             }
           }
         }

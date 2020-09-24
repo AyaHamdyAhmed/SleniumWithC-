@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Royal\Royal.csproj" />
+    <ProjectReference Include="..\FrameWork\FrameWork.csproj" />
   </ItemGroup>
 
 </Project>

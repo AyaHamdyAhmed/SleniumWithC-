@@ -362,11 +362,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TryC#\\SleniumWithC-\\FrameWork\\FrameWork.csproj",
+      "projectUniqueName": "d:\\TryC#\\SleniumWithC#\\FrameWork\\FrameWork.csproj",
       "projectName": "FrameWork",
-      "projectPath": "D:\\TryC#\\SleniumWithC-\\FrameWork\\FrameWork.csproj",
+      "projectPath": "d:\\TryC#\\SleniumWithC#\\FrameWork\\FrameWork.csproj",
       "packagesPath": "C:\\Users\\Aya.aref\\.nuget\\packages\\",
-      "outputPath": "D:\\TryC#\\SleniumWithC-\\FrameWork\\obj\\",
+      "outputPath": "d:\\TryC#\\SleniumWithC#\\FrameWork\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
