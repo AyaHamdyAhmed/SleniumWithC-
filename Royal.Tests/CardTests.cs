@@ -2,28 +2,14 @@ using System.IO;
 using FrameWork.Modles;
 using FrameWork.Services;
 using NUnit.Framework;
-using FrameWork.Selenium;
 using Royal.Pages;
 using System.Collections.Generic;
-using FrameWork;
+using Tests.Base;
 
 namespace Tests
 {
-    public class CardTests
+    public class CardTests : TestBase
     {
-        [OneTimeSetUp]
-        public void BeforeClass()
-        {
-            FW.CreateTestResultsDirectory();
-        }
-        [SetUp]
-        public void BeforeTest()
-        {
-            FW.setLogger();
-            Driver.InitDriver();
-            Pages.Init();
-            Driver.GoTO("https://statsroyale.com");
-        }
 
         [Test, Category("cards")]
         [TestCaseSource("apiCards")]
@@ -63,13 +49,6 @@ namespace Tests
        }
 
        static IList<Card> apiCards = new ApiCardService().GetAllCards();
-
-        [TearDown]
-        public void AfterTest()
-        {
-          Driver.Quit();
-        }
-
 
     }
 }
